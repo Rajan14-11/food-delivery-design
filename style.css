@@ -1,0 +1,217 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    scroll-behavior: smooth;
+}
+.mainheader{
+    display: flex;
+    align-items: center;
+    position: relative;
+    position: sticky;
+    top: 0px;
+}
+.mainheader::before{content: "";
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-color: black;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+
+}
+.mainheader .logo{
+    margin: -20px 10px;
+    padding: 2px;
+}
+.mainheader .logo img{
+        width: 120px;
+        height: 150px;
+        margin: 0px 10px;
+    filter: invert(100%);
+}
+ ul{
+    display: flex;
+    /* justify-content: center;
+    text-decoration: none; */
+    list-style: none;}
+
+ul li a{
+     display: block;
+    /* justify-content: space-around; */ 
+    margin :30px 10px;
+    color: white;
+    font-family: 'Baloo Bhai 2', cursive;
+    text-transform: capitalize;
+    text-decoration: none;
+font-size: 20px;
+}
+    
+ul li a:hover{
+    background-color: white;
+    color: black;
+    text-decoration:underline ;
+    border-radius: 7px;
+}
+#home{
+    display:flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    justify-content: center;
+    align-items: center;
+    height: 526px;
+
+}
+#home::before{content: "";
+    position: absolute;
+    background-image: url('bg1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100.3%;
+    z-index: -1;
+    opacity: 0.86;
+
+}
+.h-primary{
+    font-size: 3.5rem;
+    padding: 5px;
+text-align: center;
+font-family: 'Baloo Bhai 2', cursive;}
+#home .h-primary{
+    font-size: 4.3rem;
+    /* padding: 5px; */
+    color: white;
+    text-align: center;
+    text-transform: capitalize;
+}
+#home p{
+    color: white;
+    font-size: 1.8rem;
+    text-align: center;
+    /* padding: 3px;
+    margin: 1px; */
+}
+#home button{
+    font-size: 1.4rem;
+    margin-top: 35px;
+    text-transform: capitalize;
+    background-color: brown;
+    border-radius: 7px;
+    border:white solid 2px;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+.box img{
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;
+}
+/* .services::before{
+    content: "";
+    background-image: url('bg.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 98.8%;
+    z-index: -1;
+    opacity: 0.5;
+    left: 0px;
+} */
+#services{
+    margin: 34px;
+    display: flex;
+    position: relative;
+}
+#services .box{
+    border: 2px brown solid;
+    padding: 34px;
+    margin: 3px 10px;
+    border-radius: 10px;
+    background-color: rgb(214, 210, 210);
+    z-index: -1;
+}
+.h-secondary{
+    font-size: 2.3rem;
+    text-align: center;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+#services .box p{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+.clients{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.client-item{
+    
+    padding: 40px;
+}
+.client-item img{
+height: 90px;
+display: flex;
+}
+#client{
+    position: relative;
+}
+#client::before{
+    content: "";
+    position: absolute;
+    background-image: url('bg.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
+#contact{
+    position: relative;
+}
+#contact::before{
+    content: "";
+    position: absolute;
+    background-image: url('contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.6;
+}
+#contact-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.9rem;
+}
+#contact-box input , #contact-box textarea{
+    width: 100%;
+    padding: 0.5rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#contact-box form{
+    width: 40%;
+}
+#contact-box label{
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#contact-box input{
+    font-size: 1.0rem;
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+}

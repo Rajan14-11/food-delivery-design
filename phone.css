@@ -1,0 +1,74 @@
+.mainheader{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+ul li a{
+    padding: 0px 10px;
+    font-size: 1rem;
+    margin: 0px 1px;
+}
+#home{
+    height: 380px;
+    padding: 3px 28px;
+}
+#home::before{
+    height: 450px;
+}
+#home p{
+    font-size: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+#home button{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+.mainheader .logo{
+    padding: 0px;
+    margin: -34px 0px;
+}
+.mainheader .logo img{
+    padding: 2px;
+    margin: 2px;
+    width: 100px;
+    height: 106px;
+    
+}
+/* .services{ */
+    /* height: 100px; */
+/* } */
+#services .box p{
+    font-size: 12px;
+    text-align: center;
+}
+#services .box{
+    padding: 2px;
+    margin: 1px;
+}
+
+#services{
+    flex-direction: column;
+}
+/* .services::before{
+    height: 137.2%;
+} */
+.h-primary{
+    font-size: 26px;
+}
+#home .h-primary{
+    font-size: 26px;
+}
+.h-secondary{
+    font-size: 20px;
+}
+#client .clients{
+    flex-wrap: wrap;
+}
+#client .clients img{
+    width: 76px;
+    padding: 15px;
+}
+.box img{
+    width: 120px;
+    height: 100px;
+}
